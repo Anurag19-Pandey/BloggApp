@@ -1,0 +1,120 @@
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85.7vh;
+}
+
+.login-container-left-section{
+    width: 60%;
+    height: 100%;
+}
+
+.login-container-right-section{
+    width: 40%;
+    height:100%;
+}
+
+.login-form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+
+.login-form{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.login-form h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+}
+
+.login-form h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.email-login-container , .password-login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.email-login-container input , .password-login-container input{
+    border: 1px solid black;
+    width: 400px;
+    height: 30px;
+    border-radius: 3px;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+}
+
+.email-login-container input:focus , .password-login-container input:focus{
+    outline: none;
+}
+
+.btn-login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-login-container button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    font: 12px "Open-sans", sans-serif;
+    padding: 12px 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.site-name-second-part{
+    font-weight: 400;
+}
+
+.account-signup-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.account-signup-container p{
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.signup-link{
+    text-decoration: none;
+    color: black;
+}
+
+.error-msg {
+    position: absolute;
+    top: 85%;
+    left: 0;
+    font-size: 11px;
+    font-family: 'Raleway', sans-serif;
+    color: red;
+    font-weight: 700;
+}

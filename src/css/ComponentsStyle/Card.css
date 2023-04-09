@@ -1,0 +1,37 @@
+.card-container{
+    margin: 10px;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.card-image{
+    width: 270px;
+    height: 170px;
+}
+
+.card-body-category , .card-body-title{
+    font-family: 'Raleway', sans-serif;
+    word-wrap: break-word;
+}
+
+.card-body-category i{
+    font-size: 12px;
+    font:"Open-sans", sans-serif;
+}
+
+.card-category-highlight{
+    color: #08528B;
+    font: 10px "Open-sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.card-container:hover{
+    background: #f4f4f4;
+    transform: scale(1.01);
+}
+
+.card-body-title{
+    font: 14px "Open-sans", sans-serif;
+    font-weight: 700;
+}

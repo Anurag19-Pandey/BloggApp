@@ -1,0 +1,185 @@
+.single-blog-container{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.blog-content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    position: relative;
+
+}
+
+.blog-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    position: absolute;
+    top: 10%;
+    left: -1%;
+}
+
+.blog-user-img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.blog-content-userinfo{
+    position: absolute;
+    right: 1%;
+}
+
+.blog-content-userinfo h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+
+}
+
+.blog-content-userinfo p{
+    margin-top: -10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: rgb(160, 159, 159);
+
+}
+
+.blog-content-icons{
+    position: absolute;
+    right: -70%;
+}
+
+.blog-content-icon{
+    font-size: 14px;
+    width: 20px;
+    height: 20px;
+    color: rgb(74, 74, 74);
+    margin-left: 15px;
+}
+
+.blog-title{
+    position: absolute;
+    top: 50%;
+}
+
+.blog-title{
+    font-family: 'Catamaran', sans-serif;
+}
+
+.blog-image{
+    position: absolute;
+    top: 90%;
+    width: 80%;
+    height: 300px;
+}
+
+.blog-description{
+    position: absolute;
+    top: 250%;
+    width: 80%;
+}
+
+.userinfo-blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin-left: -40px;
+}
+
+.vertical-line-blog{
+    position: absolute;
+    left: -65%;
+    top: 120%;
+    width: 430px;
+    transform: rotate(90deg);
+    background-color: rgb(240, 233, 233);;
+}
+
+
+.side-container-user-image-blog{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    border-radius: 50%;
+}
+
+.side-container-userinfo h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+
+}
+
+.side-container-userinfo p{
+    margin-top: -10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: rgb(160, 159, 159);
+}
+
+.userprofile-description{
+    position: absolute;
+    top: 75%;
+}
+
+.follow-btn-blog button{
+    position: absolute;
+    top: 120%;
+    left: 0;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    font: 13px "Open-sans", sans-serif;
+    padding: 12px 24px;
+    border-radius: 25px;
+    /* margin-bottom: 20px; */
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.more-from-us-section{
+    position: absolute;
+    top: 140%;
+    left: 2%;
+}
+
+.more-from-us-artiles-section{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    background: #f5f5f5;
+    padding: 10px;
+}
+
+.more-from-us-artiles-section h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.more-from-us-artiles-section img{
+        width: 80px;
+        height: 80px;
+}
+
+.more-from-us-artiles-section-title-desc{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.more-from-us-artiles-section-title-desc p{
+    margin-top: -4px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+
+}

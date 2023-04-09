@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.write{
+    padding-top:50px ;
+}
+
+.writeImage{
+    margin-left : 150px ;
+    width : 70vw ;
+    height : 250px ;
+    border-radius : 10px ;
+    object-fit: cover;
+}
+
+.writeForm{
+    position: relative ;
+}
+
+.writeFormGroup{
+    margin-left : 150px ;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.writeIcon{
+    width: 25px;
+    height : 25px ;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    color : rgb(121, 118,118) ;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+.writeInput{
+    border:none ;
+    padding : 20px;
+    width: 70vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.writeInput:focus{
+    outline:none ;
+}
+
+.writeText{
+    font-size: 24px;
+    height: 100vh;
+    font-weight: normal;
+}
+
+.writeSubmit{
+    position: absolute ;
+    top : 20px ;
+    right: 50px;
+    color: white ;
+    background-color: teal ;
+    padding: 10px;
+    border:none ;
+    border-radius: 10px;
+    cursor : pointer;
+    font-size : 16px ;
+}

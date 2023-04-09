@@ -1,0 +1,57 @@
+.gallery-blogs-left{
+   width: 60%;
+   padding: 70px;
+}
+.gallery-blogs-first-two-post{
+    display: flex;
+}
+
+.gallery-blogs-first-two-post-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-blog-info{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-blog-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width : 800px;
+    height : 200px;
+}
+
+.gallery-blog-info p{
+    text-align: center;
+}
+
+.gallery-blog-info h3{
+    text-align: left;
+}
+
+.gallery-blog-info button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    font: 10px "Open-sans", sans-serif;
+    padding: 12px 24px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.gallery-blog-info button:focus{
+    outline: none;
+}
+
+.read-more-btn{
+    text-align: center;
+}

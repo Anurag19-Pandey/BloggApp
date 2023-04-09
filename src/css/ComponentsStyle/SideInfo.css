@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+.sideinfo-container{
+    width: 30%;
+    border: 1px solid rgb(231, 231, 231);
+    position: absolute;
+    right: 3%;
+}
+
+.latest-blog-lists{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction:column ;
+}
+
+.latest-post-heading{
+    position: absolute;
+    top: -41px;
+    left:30%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color:#161616;
+    padding: 15px;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.latest-blog-list img{
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.list-blog-img-title{
+    display: flex;
+    align-items: center;
+}
+
+.list-blog-img{
+    margin-right: 10px;
+}
+
+.list-blog-title p{
+    margin-bottom: -10px;
+}
+
+hr{
+    width: 300px;
+}

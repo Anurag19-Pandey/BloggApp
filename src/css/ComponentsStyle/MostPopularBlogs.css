@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.most-popular-blog-container{
+    margin-top: 30px;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.most-popular-blog-content{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 80%;
+    height: 400px;
+    margin-top: 50px;
+    text-align: center;
+    border: 1px solid rgb(231, 231, 231);
+}
+
+.most-popular-blog-content h1{
+    position: absolute;
+    top: -45px;
+    left: 44%;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    color:#161616;
+    padding: 20px;
+}
+
+.left-most-popular-btn{
+    position: absolute;
+    top: 94%;
+    left: 46%;
+    border-radius: 50%;
+    border: 0.5px solid rgb(200, 200, 200);
+    background-color: #fff;
+    padding: 9px;
+}
+
+.right-most-popular-btn{
+    position: absolute;
+    top: 94%;
+    right: 46.5%;
+    border-radius: 50%;
+    border: 0.5px solid rgb(200, 200, 200);
+    background-color: #fff;
+    padding: 9px;
+}
+
+.most-popular-arrow-icon{
+    font-size: 16px;
+    color: rgb(164, 163, 163);
+}
+
+.most-popular-blogs{
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.most-popular-blogs::-webkit-scrollbar{
+    display: none;
+}

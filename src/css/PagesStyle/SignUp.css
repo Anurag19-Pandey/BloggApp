@@ -1,0 +1,156 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85.7vh;
+}
+
+.signup-container-left-section {
+    width: 40%;
+    height: 100%;
+}
+
+
+.signup-container-right-section {
+    width: 60%;
+    height: 100%;
+}
+
+.signup-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+
+.signup-form {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.signup-form h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+}
+
+.signup-sbt-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 0.5px solid rgb(200, 200, 200); */
+}
+
+.userinfo-signup-container,
+.password-signup-container,
+.user-image-container,
+.email-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.first-name-container,
+.password-container {
+    margin-right: 5px;
+}
+
+.first-name-container input,
+.last-name-container input,
+.password-container input,
+.confirm-password-container input {
+    border: 1px solid black;
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+}
+
+.user-image-container input,
+.email-container input {
+    border: 1px solid black;
+    width: 415px;
+    height: 30px;
+    border-radius: 3px;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+}
+
+.first-name-container input:focus,
+.last-name-container input:focus,
+.password-container input:focus,
+.confirm-signup-container input:focus {
+    outline: none;
+}
+
+.error-msg {
+    position: absolute;
+    top: 85%;
+    left: 0;
+    font-size: 11px;
+    font-family: 'Raleway', sans-serif;
+    color: red;
+    font-weight: 700;
+}
+
+.error-msg-2 {
+    position: absolute;
+    top: 85%;
+    left: 215px;
+    font-size: 11px;
+    font-family: 'Raleway', sans-serif;
+    color: red;
+    font-weight: 700;
+}
+
+
+.btn-signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-signup-container button {
+    background-color: black;
+    color: white;
+    border: none;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    font: 12px "Open-sans", sans-serif;
+    padding: 12px 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+
+.site-name-second-part {
+    font-weight: 400;
+}
+
+.account-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-login-container p {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.login-link {
+    text-decoration: none;
+    color: black;
+}
